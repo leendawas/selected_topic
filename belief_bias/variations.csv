@@ -1,1 +1,11 @@
 variation_id,bias_type,variation_no,premise_1,premise_2,conclusion,correct_label,why_tricky
+BB_01,belief_bias,1,Some birds are doctors,All birds are machines,Some doctors are machines,entailment,Sounds unrealistic but logically valid
+BB_02,belief_bias,2,Some teachers are robots,All teachers are planets,Some robots are planets,entailment,Conflicts with real-world belief
+BB_03,belief_bias,3,Some nurses are cats,All nurses are clouds,Some cats are clouds,entailment,Unbelievable content
+BB_04,belief_bias,4,Some lawyers are ghosts,All lawyers are flowers,Some ghosts are flowers,entailment,Illogical in real life
+BB_05,belief_bias,5,Some pencils are humans,All pencils are fish,Some humans are fish,entailment,Contradicts common sense
+BB_06,belief_bias,6,Some babies are scientists,All babies are tables,Some scientists are tables,entailment,Strange but logically consistent
+BB_07,belief_bias,7,Some artists are lions,All artists are spoons,Some lions are spoons,entailment,Impossible scenario
+BB_08,belief_bias,8,Some students are computers,All students are rivers,Some computers are rivers,entailment,Absurd but valid reasoning
+BB_09,belief_bias,9,Some singers are chairs,All singers are books,Some chairs are books,entailment,Confuses belief vs logic
+BB_10,belief_bias,10,Some doctors are stars,All doctors are bicycles,Some stars are bicycles,entailment,Triggers belief bias
