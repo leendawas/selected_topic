@@ -1,1 +1,2 @@
-
+problem_id,member,bias_type,premise_1,premise_2,conclusion,correct_label
+BB_BASE,Lolwa,belief_bias,Some animals are human beings,All animals are tomatoes,Some humans are tomatoes,entailment
