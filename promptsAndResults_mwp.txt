@@ -1,0 +1,253 @@
+1. MCGSM8K Case Study
+Question:
+John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?
+
+Option A:
+He sold 13 lego sets because 5 / 5 = 1.
+He spent $100 on video games because 8 x 20 = 160.
+He earned $130 from the lego sets because 13 x 15 = 195.
+He had $235 worth of toys because 195 + 5 = 200.
+He had 17 lego sets because 200 / 13 = 15.385.
+He has 16 left because 15 + 1 = 16.
+Final Answer: 16
+
+Option B:
+He earned $200 selling legos because 13 x 15 = 195.
+He spent $160 on video games because 8 x 20 = 160.
+He had $45 left over because 195 - 160 = 35.
+He bought 3 sets because 45 / 15 = 3.
+He now has 10 sets because 13 - 3 = 10.
+Final Answer: 10
+
+Option C:
+He earned 13 * $15 = $200 from selling lego sets.
+He spent $200 - $10 = $190 on video games.
+He still has 13 - 8 = 5 lego sets.
+Final Answer: 5
+
+Option D (Correct):
+He spent $160 on video games because 8 x 20 = 160.
+He earned $165 from his sale because 160 + 5 = 165.
+He sold 11 lego sets because 11 x 15 = 165.
+He has 2 sets left because 13 - 11 = 2.
+Final Answer: 2
+
+2. GSM8K-Judgement Case Study
+
+Statement:
+John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?
+
+Rationale:
+He spent $160 on video games because 8 x 20 = 160.
+He earned $165 from his sale because 160 + 5 = 165.
+He sold 11 lego sets because 11 x 15 = 165.
+He has 2 sets left because 13 - 11 = 2.
+
+Label: True
+
+3. GSM8K-Judgement Case Study
+
+Statement:
+A bakery sells cupcakes in boxes of 6. Emma buys 5 boxes and gives away 8 cupcakes to her friends. Later, she buys 3 more boxes and eats 7 cupcakes. How many cupcakes does Emma have left?
+
+Rationale:
+She first buys 5 boxes, so she has 5 × 6 = 30 cupcakes.
+She gives away 8 cupcakes, leaving her with 30 - 8 = 22 cupcakes.
+She then buys 3 more boxes, adding 3 × 6 = 18 cupcakes.
+Now she has 22 + 18 = 40 cupcakes.
+She eats 7 cupcakes, so she has 40 - 7 = 34 cupcakes left.
+
+Label: False
+
+4. GSM8K-Judgement Case Study
+
+Statement:
+A school is organizing a field trip. Each bus can carry 24 students. There are 5 classes with 23 students each. The school decides to assign one full bus per class to keep students together. After assigning buses, they realize there are some empty seats. How many empty seats are there in total?
+
+Rationale:
+There are 5 classes with 23 students each, so the total number of students is 5 × 23 = 115.
+Each class is assigned one bus, and each bus can carry 24 students, so there are 5 buses with a total capacity of 5 × 24 = 120 seats.
+The number of empty seats is 120 - 115 = 5.
+
+Label: False
+
+5. MCGSM8K Case Study
+
+Question:
+A company gives a 20% discount on a product, then applies a 10% tax on the discounted price. If the original price of the product is $200, what is the final price?
+
+Option A (Correct):
+Step 1: Apply 20% discount → 200 × 0.8 = 160
+Step 2: Apply 10% tax → 160 × 1.1 = 176
+Final Answer: 176
+
+Option B:
+Step 1: Apply 10% tax → 200 × 1.1 = 220
+Step 2: Apply 20% discount → 220 × 0.8 = 176
+Final Answer: 176
+
+Option C:
+Step 1: 20% discount and 10% tax cancel each other
+Step 2: Final price = 200
+Final Answer: 200
+
+Option D:
+Step 1: 20% of 200 = 40 → discounted price = 200 - 40 = 160
+Step 2: Add 10% of original price (20) → 160 + 20 = 180
+Final Answer: 180
+
+6. MCGSM8K Case Study
+
+Question:
+A student buys a notebook for $50 and receives a 20% discount. Then, a 10% tax is applied to the discounted price. Later, the student returns the notebook and receives a refund based on the price after the discount but before tax. How much money does the student lose overall?
+
+Option A (Correct):
+Step 1: Apply 20% discount → 50 × 0.8 = 40
+Step 2: Apply 10% tax → 40 × 1.1 = 44
+Step 3: Refund is based on discounted price (before tax) → 40
+Step 4: Loss = 44 - 40 = 4
+Final Answer: 4
+
+Option B:
+Step 1: Apply 10% tax → 50 × 1.1 = 55
+Step 2: Apply 20% discount → 55 × 0.8 = 44
+Step 3: Refund is based on discounted price → 44
+Step 4: Loss = 44 - 44 = 0
+Final Answer: 0
+
+Option C:
+Step 1: Apply 20% discount → 50 × 0.8 = 40
+Step 2: Apply 10% tax → 40 × 1.1 = 44
+Step 3: Refund includes tax → 44
+Step 4: Loss = 44 - 44 = 0
+Final Answer: 0
+
+Option D:
+Step 1: 20% of 50 = 10 → discounted price = 50 - 10 = 40
+Step 2: Add 10% of original price (5) → 40 + 5 = 45
+Step 3: Refund is based on discounted price → 40
+Step 4: Loss = 45 - 40 = 5
+Final Answer: 5
+
+7. MCGSM8K Case Study
+
+Question:
+A store sells a jacket for $120. A customer uses a 25% discount coupon. After that, a 10% tax is applied. However, the store policy states that if an item is returned, the refund is based on the final paid amount excluding tax, minus a fixed $5 processing fee. How much money does the customer lose after returning the jacket?
+
+Option A (Correct):
+Step 1: Apply 25% discount → 120 × 0.75 = 90
+Step 2: Apply 10% tax → 90 × 1.1 = 99
+Step 3: Refund excludes tax → refund = 90
+Step 4: Subtract $5 processing fee → 90 - 5 = 85
+Step 5: Loss = 99 - 85 = 14
+Final Answer: 14
+
+Option B:
+Step 1: Apply 25% discount → 120 × 0.75 = 90
+Step 2: Apply 10% tax → 90 × 1.1 = 99
+Step 3: Refund includes tax → refund = 99
+Step 4: Subtract $5 processing fee → 99 - 5 = 94
+Step 5: Loss = 99 - 94 = 5
+Final Answer: 5
+
+Option C:
+Step 1: Apply 10% tax → 120 × 1.1 = 132
+Step 2: Apply 25% discount → 132 × 0.75 = 99
+Step 3: Refund excludes tax → refund = 99
+Step 4: Subtract $5 processing fee → 99 - 5 = 94
+Step 5: Loss = 99 - 94 = 5
+Final Answer: 5
+
+Option D:
+Step 1: Apply 25% discount → 120 × 0.75 = 90
+Step 2: Apply 10% tax → 90 × 1.1 = 99
+Step 3: Refund excludes tax → refund = 90
+Step 4: Loss = 99 - 90 = 9
+Final Answer: 9
+
+8. MCGSM8K Case Study
+
+Question:
+A store sells a bag for $100. A customer gets a 30% discount and then pays a 10% tax on the discounted price. Later, the customer returns the bag. The store refunds only the discounted price (before tax), but also deducts a $4 return fee. How much money does the customer lose?
+
+Option A:
+Step 1: Apply 30% discount → 100 × 0.7 = 70
+Step 2: Apply 10% tax → 70 × 1.1 = 77
+Step 3: Refund includes tax → refund = 77
+Step 4: Deduct return fee → 77 - 4 = 73
+Step 5: Loss = 77 - 73 = 4
+Final Answer: 4
+
+Option B (Correct):
+Step 1: Apply 30% discount → 100 × 0.7 = 70
+Step 2: Apply 10% tax → 70 × 1.1 = 77
+Step 3: Refund excludes tax → refund = 70
+Step 4: Deduct return fee → 70 - 4 = 66
+Step 5: Loss = 77 - 66 = 11
+Final Answer: 11
+
+Option C:
+Step 1: Apply 10% tax → 100 × 1.1 = 110
+Step 2: Apply 30% discount → 110 × 0.7 = 77
+Step 3: Refund excludes tax → refund = 77
+Step 4: Deduct return fee → 77 - 4 = 73
+Step 5: Loss = 77 - 73 = 4
+Final Answer: 4
+
+Option D:
+Step 1: Apply 30% discount → 100 × 0.7 = 70
+Step 2: Apply 10% tax → 70 × 1.1 = 77
+Step 3: Refund excludes tax → refund = 70
+Step 4: Loss = 77 - 70 = 7
+Step 5: Add return fee → 7 + 4 = 11
+Final Answer: 11
+9. MCGSM8K Case Study
+
+Question:
+A company sells a laptop for $500. A customer gets a 20% discount, then a 15% tax is applied. Later, the customer returns the laptop. The store refunds only the discounted price (before tax), but also deducts a $10 handling fee and an additional 5% restocking fee based on the discounted price. How much money does the customer lose?
+
+Option A:
+Final Answer: 85
+Option B (Correct):
+Final Answer: 90
+Option C:
+Final Answer: 75
+Option D:
+Final Answer: 100
+
+10. MCGSM8K Case Study
+
+Question:
+A gym membership costs $300. A member gets a 25% discount and then pays a 10% tax. After one month, the member cancels the membership. The gym refunds only the discounted price (before tax), but deducts a fixed $15 cancellation fee and 10% of the discounted price as a service charge. How much money does the member lose?
+
+Option A:
+Final Answer: 67.5
+Option B:
+Final Answer: 82.5
+Option C (Correct):
+Final Answer: 90
+Option D:
+Final Answer: 75
+
+
+Results Table
+
+Questions 1–5
+
+Model       Q1   Q2   Q3   Q4   Q5
+------------------------------------
+ChatGPT     0    1    0    0    1
+Claude      1    1    1    0    1
+Gemini      1    1    1    0    1
+DeepSeek    1    1    1    0    1
+
+
+Questions 6–10
+
+Model       Q6   Q7   Q8   Q9   Q10
+-------------------------------------
+ChatGPT     1    1    1    1    0
+Claude      1    1    0    1    0
+Gemini      1    1    1    1    1
+DeepSeek    1    1    1    1    0
+
