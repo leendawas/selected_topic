@@ -17,3 +17,5 @@ Files:
 Method:
 Each model answered using: entailment / contradiction / neutral
 Accuracy was calculated based on correct logical answers.
+
+Lolwa Alboinin 60106354
