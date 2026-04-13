@@ -1,2 +1,11 @@
-problem_id,bias_type,premise_1,premise_2,conclusion,correct_label
-BB_BASE,belief_bias,Some animals are human beings,All animals are tomatoes,Some humans are tomatoes,entailment
+question_id,premise1,premise2,conclusion,correct_answer
+1,All flowers need water,Rocks do not need water,Rocks are not flowers,entailment
+2,All criminals are punished,Some innocent people are punished,Some innocent people are criminals,neutral
+3,No birds are mammals,Some mammals can swim,Some birds can swim,neutral
+4,All doctors are educated,Some educated people are unemployed,Some doctors are unemployed,neutral
+5,Some successful people are dishonest,All dishonest people are unhappy,Some successful people are unhappy,entailment
+6,All metal objects are heavy,Some light objects are not heavy,Some light objects are not metal objects,entailment
+7,No honest people lie,Some politicians lie,Some politicians are not honest people,entailment
+8,All programmers are logical,Some logical people are bad communicators,Some programmers are bad communicators,neutral
+9,Some animals are fast,Some fast things are dangerous,Some animals are dangerous,neutral
+10,All students study,Some people who study fail,Some students fail,neutral
