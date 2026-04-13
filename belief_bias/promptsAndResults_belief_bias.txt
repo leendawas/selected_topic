@@ -1,0 +1,151 @@
+PROMPTS AND RESULTS – BELIEF BIAS TESTING
+
+Prompt used:
+You are given a logical reasoning problem.
+
+Premise 1: ...
+Premise 2: ...
+Conclusion: ...
+
+Answer ONLY with:
+entailment / contradiction / neutral
+
+
+----------------------------------------
+
+Question 1
+Premise 1: All flowers need water
+Premise 2: Rocks do not need water
+Conclusion: Rocks are not flowers
+Correct Answer: entailment
+
+ChatGPT: entailment
+Claude: entailment
+DeepSeek: entailment
+Gemini: entailment
+
+----------------------------------------
+
+Question 2
+Premise 1: All criminals are punished
+Premise 2: Some innocent people are punished
+Conclusion: Some innocent people are criminals
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: neutral
+DeepSeek: contradiction
+Gemini: entailment
+
+----------------------------------------
+
+Question 3
+Premise 1: No birds are mammals
+Premise 2: Some mammals can swim
+Conclusion: Some birds can swim
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: neutral
+DeepSeek: neutral
+Gemini: entailment
+
+----------------------------------------
+
+Question 4
+Premise 1: All doctors are educated
+Premise 2: Some educated people are unemployed
+Conclusion: Some doctors are unemployed
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: neutral
+DeepSeek: neutral
+Gemini: entailment
+
+----------------------------------------
+
+Question 5
+Premise 1: Some successful people are dishonest
+Premise 2: All dishonest people are unhappy
+Conclusion: Some successful people are unhappy
+Correct Answer: entailment
+
+ChatGPT: entailment
+Claude: entailment
+DeepSeek: entailment
+Gemini: entailment
+
+----------------------------------------
+
+Question 6
+Premise 1: All metal objects are heavy
+Premise 2: Some light objects are not heavy
+Conclusion: Some light objects are not metal objects
+Correct Answer: entailment
+
+ChatGPT: entailment
+Claude: entailment
+DeepSeek: entailment
+Gemini: entailment
+
+----------------------------------------
+
+Question 7
+Premise 1: No honest people lie
+Premise 2: Some politicians lie
+Conclusion: Some politicians are not honest people
+Correct Answer: entailment
+
+ChatGPT: entailment
+Claude: entailment
+DeepSeek: entailment
+Gemini: entailment
+
+----------------------------------------
+
+Question 8
+Premise 1: All programmers are logical
+Premise 2: Some logical people are bad communicators
+Conclusion: Some programmers are bad communicators
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: neutral
+DeepSeek: neutral
+Gemini: neutral
+
+----------------------------------------
+
+Question 9
+Premise 1: Some animals are fast
+Premise 2: Some fast things are dangerous
+Conclusion: Some animals are dangerous
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: neutral
+DeepSeek: neutral
+Gemini: neutral
+
+----------------------------------------
+
+Question 10
+Premise 1: All students study
+Premise 2: Some people who study fail
+Conclusion: Some students fail
+Correct Answer: neutral
+
+ChatGPT: neutral
+Claude: entailment
+DeepSeek: neutral
+Gemini: neutral
+
+----------------------------------------
+
+FINAL SUMMARY
+
+ChatGPT: 10/10
+Claude: 9/10
+DeepSeek: 9/10
+Gemini: 6/10
