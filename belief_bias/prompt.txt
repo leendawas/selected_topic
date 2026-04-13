@@ -1,10 +1,8 @@
-You are given a syllogistic reasoning problem.
+You are given a logical reasoning problem.
 
-Premise 1: [P1]
-Premise 2: [P2]
-Conclusion: [C]
+Premise 1: ...
+Premise 2: ...
+Conclusion: ...
 
-Decide whether the conclusion is:
-Entailment, Contradiction, or Neutral.
-
-Answer using only one word.
+Answer ONLY with:
+entailment / contradiction / neutral
